@@ -517,12 +517,17 @@ span {
 .controls {
   display: flex;
   justify-content: space-between;
-  margin-top: -12rem;
-  background-color: var(--bg-color);
+  margin-top: -4rem;
+  /* background-color: var(--main-color); */
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
 }
 
 .button {
   cursor: pointer;
+  width: 13rem;
+  height: 13rem;
   padding: 10px;
   line-height: 1rem;
   border: none;
@@ -536,7 +541,7 @@ span {
   background-color: var(--main-color);
   border-radius: 100%;
   color: var(--bg-color);
-  box-shadow: 0 0 5px var(--main-color);
+  box-shadow: 0 0 10px var(--main-color);
   transition: 0.5s ease-in-out;
 }
 /* end card */
